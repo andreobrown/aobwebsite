@@ -1,40 +1,403 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>heroku-static-site -- basic HTML+CSS+JS website on Heroku</title>
-  <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" charset="utf-8" />
-  <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>...aob - any other business</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-<body>
 
-<div id="container">
-  <div id="header">
-    <h1><a href="/">heroku-static-site</a></h1>
+<body id="page-top" class="index">
 
-    <div id="navigation">
-      <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">...aob</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Focus On Your Business</div>
+                <div class="intro-heading">Leave The Technology To Us</div>
+                <a href="#services" class="page-scroll btn btn-xl">Yes Please!</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">
+                    	<p>We are a full stack software development and support team.</p>
+                    	<p>We recognise that technology exists to serve your business, and should contribute to the bottom line.</p>
+                    	<p>This understanding guides all our projects.</p>
+                    </h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Development</h4>
+                    <p class="text-muted">We design and develop software to meet business needs. Whether you are seeking to build a new application or customise an existing one, we have the expertise to craft the code you need.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Cloud Infrastructure</h4>
+                    <p class="text-muted">We offer a winning combination of coding skills and cloud expertise. We can take your idea from inception, to coding, to implementation in the cloud. We also provide post implementation support.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Applications</h4>
+                    <p class="text-muted">We have experience evaluating and setting up a range of software and applications. If you're seeking consultation services for choosing and installing open source and other applications, we do that!.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">
+                    	<p>It doesn't matter what technology you need to keep your business running.</p>
+                    	<p>Whatever the technology is, leave that to us. We will figure it out.</p>
+                    	<p>Here is some of what we've done.</p>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ror-ecommerce.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Custom E-Commerce Payment</h4>
+                        <p class="text-muted">Development</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/aws.svg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>High Traffic AWS Infrastructure</h4>
+                        <p class="text-muted">Cloud Infrastructure</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lookup.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Amazon Product Lookup Tool</h4>
+                        <p class="text-muted">Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">
+                    	<p>Our team members are cross-disciplined. In addition to core competencies, we learn what is required to support our work.</p>
+                    	<p>This means that your project won't be delayed because the server guy doesn't know how to fix a bug in the code.</p>
+                    	<p>While you focus on your core business, here is the team making the technology work for you.</p>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>André O. Brown</h4>
+                        <p class="text-muted">Cloud Specialist</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://www.twitter.com/andreobrown"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="http://jm.linkedin.com/in/andreobrown"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Leon Dennis</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="http://jm.linkedin.com/pub/leon-dennis/29/827/966"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">André and Leon have over 20 years combined experience providing software solutions, for small to medium sized businesses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us...</h2>
+                    <h3 class="section-subheading text-muted">for more information on our services, or to engage us for a project.</h3>
+                </div>
+            </div>
+            <div class="row contact-info">
+                <div class="col-lg-12 text-center">     
+				  <div class="col-md-4">
+					<div class="contact-widget wow bounceInLeft animated" style="visibility: visible;">
+						<i class="fa fa-map-marker fa-4x"></i>
+						<h5>Main Office</h5>
+						<p>
+						<a href="https://www.google.com/maps/place/Kingston,+Jamaica">Kingston, Jamaica</a>
+						</p>						
+					</div>
+				  </div>
+				  <div class="col-md-4">
+					<div class="contact-widget wow bounceInDown animated" style="visibility: visible;">
+						<i class="fa fa-skype fa-4x"></i>
+						<h5>Skype Us</h5>
+						<p>
+						<a href="skype:andreobrown?call">andreobrown</a>
+						</p>						
+					</div>
+				  </div>
+				  <div class="col-md-4">
+					<div class="contact-widget wow bounceInRight animated" style="visibility: visible;">
+						<i class="fa fa-envelope fa-4x"></i>
+						<h5>Email us</h5>
+						<p>
+						<a href="mailto:info@aob.com.jm">info@aob.com.jm</a>
+						</p>						
+					</div>
+				  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-14">
+                    <span class="copyright">Copyright &copy; any other business 2014</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Custom E-Commerce Payment</h2>
+                            <p class="item-intro text-muted">Ruby on Rails Application Development</p>
+                            <p>Integrated a third party unsupported payment gateway, providing Internet PIN debit payment. The payment page retrieves payment details from Shopify via their API, presents it to the user for verification, and presents a payment form, with a secure PIN pad. If the payment succeeds, the application sends a debit request via the PayLeap API, and updates the order via the Shopify API.</p>
+                            <ul class="list-inline">
+                                <li>Date: August 2014</li>
+                                <li>Technologies: Ruby on Rails, Twitter Bootstrap, Shopify API, PayLeap API, E-Commerce, HAML, AJAX</li>
+                            </ul>
+                            <img class="img-responsive" src="img/portfolio/ror-ecommerce.png" alt="">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 
-
-  <div id="main">
-
-    <div id="description">
-      <h2>What's the idea?</h2>
-      <p>Yep</p>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>High Traffic AWS Infrastructure</h2>
+                            <p class="item-intro text-muted">Amazon Web Services Application Deployment</p>
+                            <p>Created infrastructure and supported the deployment of a Ruby on Rails web application, for a high traffic website. Design infrastructure to be resilient, and capable of handling tens of thousands of users per day. The setup utilised AWS load balancing and autoscaling services.</p>
+                            <ul class="list-inline">
+                                <li>Date: August 2014</li>
+                                <li>Technologies: AWS, EC2, RDS, S3, Elastic Load Balancer, AutoScaling, Ubuntu, Nginx, Unicorn, Ruby on Rails, Sidekiq, Redis, Elastic Search, PostgreSQL</li>
+                            </ul>
+                            <img class="img-responsive img-centered" src="img/portfolio/aws.svg" alt="">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div id="footer">
-    &copy; 2013 No Rights Reserved.
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Amazon Product Lookup Tool</h2>
+                            <p class="item-intro text-muted">Retrieves product information via Amazon API.</p>
+                            <p>Developed a tool which accepts a spreadsheet of product codes uploaded by the user, queries the Amazon Product API for product details, and presents the information to the user. Information also made available for download.</p>
+                            <ul class="list-inline">
+                                <li>Date: August 2014</li>
+                                <li>Technologies: Ruby, Sinatra, SQLite, RedHat Cloud (RHC), Amazon API</li>
+                            </ul>
+                            <img class="img-responsive img-centered" src="img/portfolio/lookup.png" alt="">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </div>
-</div>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
 </body>
+
 </html>
