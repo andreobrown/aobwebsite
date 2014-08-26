@@ -14,7 +14,7 @@ workflow
 * Make changes on main branch
 * Switcht to heroku branch:
 
-    git checkout heroku
+   ``` git checkout heroku```
 
 * Checkout changes from main branch (eg. agency.css):
     
