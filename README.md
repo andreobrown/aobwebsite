@@ -16,9 +16,9 @@ workflow
 
     git checkout heroku
 
-* Merge changes:
+* Checkout changes from main branch (eg. agency.css):
     
-    git merge master
+    git checkout master css/agency.css
 
 * Commit changes
 
