@@ -18,13 +18,13 @@ workflow
 
 * Checkout changes from main branch (eg. agency.css):
     
-    git checkout master css/agency.css
+    ```git checkout master css/agency.css```
 
 * Commit changes
 
-    git commit -am "Commit changes"
+    ```git commit -am "Commit changes"```
     
 * Push changes to heroku
 
-    git push heroku heroku:master
+    ```git push heroku heroku:master```
  
