@@ -296,6 +296,12 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+@media(max-width: 568px) {
+    header .intro-heading {
+      font-size:50px;
+    }
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
@@ -309,6 +315,7 @@ header .intro-text .intro-heading {
         font-style: italic;
         line-height: 40px;
     }
+
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
@@ -864,3 +871,4 @@ body {
 .contact-info{
 	color: #fff;
 }
+
