@@ -9,6 +9,8 @@ heroku
 -----------
 This beanch contains the configurations necessary for serving this as a Ruby app on Heroku.
 
+Used heroku-static-site gem.
+
 workflow
 -----------
 * Make changes on main branch
