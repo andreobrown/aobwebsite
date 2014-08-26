@@ -1,0 +1,30 @@
+Website for Any Other Business (...aob)
+=========================================
+
+master
+-----------
+This branch contains the base code - html, css, javascript and images only.
+
+heroku
+-----------
+This beanch contains the configurations necessary for serving this as a Ruby app on Heroku.
+
+workflow
+-----------
+* Make changes on main branch
+* Switcht to heroku branch:
+
+    git checkout heroku
+
+* Merge changes:
+    
+    git merge master
+
+* Commit changes
+
+    git commit -am "Commit changes"
+    
+* Push changes to heroku
+
+    git push heroku heroku:master
+ 
